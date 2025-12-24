@@ -1,0 +1,7 @@
+{
+  "name": "UP CURSOS - Nordeste EAD",
+  "description": "Plataforma premium de simulados para concursos de Segurança Pública e Forças Armadas. Nordeste EAD - A sua aprovação começa aqui.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

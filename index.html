@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>UP CURSOS - Nordeste EAD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        scrollbar-gutter: stable;
+      }
+      * {
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #020617;
+        color: #f8fafc;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+      }
+      .font-display {
+        font-family: 'Oswald', sans-serif;
+      }
+      .font-brand {
+        font-family: 'Montserrat', sans-serif;
+      }
+      /* Custom Scrollbar Otimizado */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #eab308;
+      }
+      @keyframes float-tactical {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-12px); }
+      }
+      .animate-float-slow {
+        animation: float-tactical 3s ease-in-out infinite;
+      }
+      /* Previne FOUC */
+      .no-fouc {
+        display: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.2.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "chart.js": "https://esm.sh/chart.js@^4.4.1",
+    "react-chartjs-2": "https://esm.sh/react-chartjs-2@^5.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
